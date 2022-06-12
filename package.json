@@ -1,0 +1,43 @@
+{
+  "name": "aws-http-gateway",
+  "version": "0.1.0",
+  "description": "AWS lambda handler wrapper for nodejs servers",
+  "main": "cjs/index.js",
+  "module": "esm/index.js",
+  "types": "types",
+  "scripts": {
+    "start": "please run ./src/app.ts",
+    "build": "please build",
+    "format": "please format",
+    "test": "please test",
+    "lint": "please lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ionutmilica/aws-http-gateway.git"
+  },
+  "keywords": [
+    "express",
+    "aws",
+    "lambda",
+    "serverless",
+    "api",
+    "gateway"
+  ],
+  "author": "Ionut Milica",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ionutmilica/aws-http-gateway/issues"
+  },
+  "homepage": "https://github.com/ionutmilica/aws-http-gateway#readme",
+  "devDependencies": {
+    "@ionutmilica/please": "^0.2.0"
+  },
+  "files": [
+    "bin",
+    "esm",
+    "cjs",
+    "types",
+    "config"
+  ]
+}
